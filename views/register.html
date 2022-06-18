@@ -1,0 +1,23 @@
+{% block content %}
+        <div style="text-align: center;">
+            <form acion="/register" method="post">
+            <h1>할 일 등록</h1>
+            <p>어떤일인가요?</p>
+            <label for="todo"></label>
+            <input type="text" id="todo" placeholder="swift 공부하기 (24자까지)" name="todostudy" >
+            <p>누가 할일인가요?</p>
+            <label for="joinnick">닉네임</label>
+            <input type="text" id="joinnick" name="nick">
+           
+            <p>우선순위를 선택하세요</p>
+            <input type="radio">1순위 
+            <input type="radio">2순위 
+            <input type="radio">3순위
+            <br>
+            <input type="submit" value="제출" > 
+        </form>
+        </div>
+        <script>
+            
+        </script>
+{% endblock %}
